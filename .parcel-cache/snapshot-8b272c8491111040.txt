@@ -4192,7 +4192,7 @@
 95/home/lady/JavaScript/Me/Forkify/node_modules/caniuse-lite/data/features/css-media-scripting.js1719741222863428115 0
 86/home/lady/JavaScript/Me/Forkify/node_modules/css-tree/cjs/syntax/node/Declaration.cjs1719741221403448191 0
 91/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/async-iterator-prototype.js1719745622088747895 0
-48/home/lady/JavaScript/Me/Forkify/src/js/model.js1719834584249236790 0
+48/home/lady/JavaScript/Me/Forkify/src/js/model.js1719864924541230612 0
 100/home/lady/JavaScript/Me/Forkify/node_modules/caniuse-lite/data/features/input-autocomplete-onoff.js1719741222891427731 0
 87/home/lady/JavaScript/Me/Forkify/node_modules/core-js/features/array/find-last-index.js1719745622200746450 0
 99/home/lady/JavaScript/Me/Forkify/node_modules/caniuse-lite/data/features/background-position-x-y.js1719741222835428501 0
@@ -4288,7 +4288,7 @@
 100/home/lady/JavaScript/Me/Forkify/node_modules/lmdb/node_modules/node-addon-api/napi-inl.deprecated.h1719741224871400522 0
 82/home/lady/JavaScript/Me/Forkify/node_modules/core-js/features/math/deg-per-rad.js1719745622136747275 0
 89/home/lady/JavaScript/Me/Forkify/node_modules/lmdb/node_modules/node-addon-api/napi-inl.h1719741224883400357 0
-59/home/lady/JavaScript/Me/Forkify/src/js/views/recipeView.js1719832299471749452 0
+59/home/lady/JavaScript/Me/Forkify/src/js/views/recipeView.js1719866477078757873 0
 78/home/lady/JavaScript/Me/Forkify/node_modules/cosmiconfig/dist/getDirectory.js1719741221623445164 0
 77/home/lady/JavaScript/Me/Forkify/node_modules/core-js/actual/iterator/some.js1719745622344744592 0
 87/home/lady/JavaScript/Me/Forkify/node_modules/caniuse-lite/data/features/wbr-element.js1719741222927427236 0
@@ -5077,7 +5077,7 @@
 83/home/lady/JavaScript/Me/Forkify/node_modules/core-js/es/string/virtual/trim-end.js1719745622376744179 0
 72/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/a-set.js1719745622064748205 0
 95/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/symbol-constructor-detection.js1719745622356744436 0
-53/home/lady/JavaScript/Me/Forkify/src/js/controller.js1719854866231916538 0
+53/home/lady/JavaScript/Me/Forkify/src/js/controller.js1719865847424062601 0
 70/home/lady/JavaScript/Me/Forkify/node_modules/@swc/helpers/_/_identity1719741221719443844 1
 83/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/object-to-string.js1719745622308745056 0
 82/home/lady/JavaScript/Me/Forkify/node_modules/core-js/es/instance/last-index-of.js1719745622292745263 0
