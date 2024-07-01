@@ -1,13 +1,12 @@
 import * as model from './model';
 import recipeView from './views/recipeView';
 import 'core-js/stable';
-import 'regenerator-runtime'
+import 'regenerator-runtime';
 import searchView from './views/searchView';
 import resultsView from './views/resultsView';
-
+import paginationView from './views/paginationView';
 
 // https://forkify-api.herokuapp.com/v2
-
 
 if (module.hot) {
   module.hot.accept();
@@ -16,48 +15,55 @@ if (module.hot) {
 const controllRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
-    // console.log(id);
-
-    if (!id) {
-      return;
-    }
+    if (!id) return;
 
     recipeView.renderSpinner();
 
-    // 1 Loading recipe
+    // 1. Loading recipe
     await model.loadRecipe(id);
 
-
-    // 2 rendering recipe 
+    // 2. Rendering recipe
     recipeView.render(model.state.recipe);
-
 
   } catch (err) {
     recipeView.renderError();
   }
-
 };
+
 const controlSearchResults = async function () {
   try {
     resultsView.renderSpinner();
 
-    // 1 Get search query
+    // 1. Get search query
     const query = searchView.getQuery();
-
     if (!query) return;
-    // 2 Load search
+
+    // 2. Load search results
     await model.loadSearchResults(query);
 
-    // 3 Render results
-    // console.log(model.state.search.results);
-    resultsView.render(model.state.search.results);
+    // 3. Render results
+    resultsView.render(model.getSearchResultsPage());
+
+    // 4. Render initial pagination buttons
+    paginationView.render(model.state.search);
   } catch (error) {
     console.log(error);
   }
-}
+};
+
+const controlPagination = function (goToPage) {
+  // console.log(goToPage);
+
+  // 1. Render NEW results
+  resultsView.render(model.getSearchResultsPage(goToPage));
+
+  // 2. Render NEW pagination buttons
+  paginationView.render(model.state.search);
+};
 
 const init = function () {
   recipeView.addHandlerRender(controllRecipes);
   searchView.addHandlerSearch(controlSearchResults);
+  paginationView.addHandlerClick(controlPagination);
 };
 init();
