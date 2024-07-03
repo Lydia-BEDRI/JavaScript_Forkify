@@ -4193,7 +4193,7 @@
 95/home/lady/JavaScript/Me/Forkify/node_modules/caniuse-lite/data/features/css-media-scripting.js1719741222863428115 0
 86/home/lady/JavaScript/Me/Forkify/node_modules/css-tree/cjs/syntax/node/Declaration.cjs1719741221403448191 0
 91/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/async-iterator-prototype.js1719745622088747895 0
-48/home/lady/JavaScript/Me/Forkify/src/js/model.js1719914216168792248 0
+48/home/lady/JavaScript/Me/Forkify/src/js/model.js1719999259575777977 0
 100/home/lady/JavaScript/Me/Forkify/node_modules/caniuse-lite/data/features/input-autocomplete-onoff.js1719741222891427731 0
 87/home/lady/JavaScript/Me/Forkify/node_modules/core-js/features/array/find-last-index.js1719745622200746450 0
 99/home/lady/JavaScript/Me/Forkify/node_modules/caniuse-lite/data/features/background-position-x-y.js1719741222835428501 0
@@ -4806,7 +4806,7 @@
 77/home/lady/JavaScript/Me/Forkify/node_modules/@parcel/runtime-js/package.json1719741222663430865 0
 73/home/lady/JavaScript/Me/Forkify/node_modules/css-tree/lib/lexer/match.js1719741221635445000 0
 84/home/lady/JavaScript/Me/Forkify/node_modules/css-tree/cjs/syntax/scope/selector.cjs1719741221499446871 0
-62/home/lady/JavaScript/Me/Forkify/src/js/views/bookmarksView.js1719996887093878735 0
+62/home/lady/JavaScript/Me/Forkify/src/js/views/bookmarksView.js1719998627033083399 0
 119/home/lady/JavaScript/Me/Forkify/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/replace/AttributeSelector.js1719741224643403654 0
 79/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/get-iterator.js1719745622224746140 0
 76/home/lady/JavaScript/Me/Forkify/node_modules/type-fest/ts41/kebab-case.d.ts1719741221591445605 0
@@ -5073,7 +5073,7 @@
 83/home/lady/JavaScript/Me/Forkify/node_modules/core-js/es/string/virtual/trim-end.js1719745622376744179 0
 72/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/a-set.js1719745622064748205 0
 95/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/symbol-constructor-detection.js1719745622356744436 0
-53/home/lady/JavaScript/Me/Forkify/src/js/controller.js1719996237995421602 0
+53/home/lady/JavaScript/Me/Forkify/src/js/controller.js1719998943928897100 0
 70/home/lady/JavaScript/Me/Forkify/node_modules/@swc/helpers/_/_identity1719741221719443844 1
 83/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/object-to-string.js1719745622308745056 0
 82/home/lady/JavaScript/Me/Forkify/node_modules/core-js/es/instance/last-index-of.js1719745622292745263 0
@@ -5559,7 +5559,7 @@
 68/home/lady/JavaScript/Me/Forkify/node_modules/core-js/actual/reflect1719745622372744230 1
 129/home/lady/JavaScript/Me/Forkify/node_modules/@parcel/core/test/fixtures/local-plugin-config-pkg/node_modules/parcel-config-local1719741224383407226 1
 78/home/lady/JavaScript/Me/Forkify/node_modules/core-js/internals/set-iterate.js1719745622336744695 0
-60/home/lady/JavaScript/Me/Forkify/src/js/views/resultsView.js1719997327747682831 0
+60/home/lady/JavaScript/Me/Forkify/src/js/views/resultsView.js1719997581036527916 0
 77/home/lady/JavaScript/Me/Forkify/node_modules/core-js/actual/string/anchor.js1719745622072748101 0
 87/home/lady/JavaScript/Me/Forkify/node_modules/core-js/actual/typed-array/copy-within.js1719745622124747431 0
 72/home/lady/JavaScript/Me/Forkify/node_modules/nth-check/lib/compile.d.ts1719741221439447696 0
